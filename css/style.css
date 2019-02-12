@@ -1,39 +1,49 @@
 .BGI {
-    background-image: url(../assets/Images/oriental.png);
+    background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-4.jpg);
     height: 100vh;
     padding-top: 20px;
 }
 
 body {
-    background-image: url(../assets/Images/oriental.png);
+    background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-4.jpg);
 }
 
 .CW {
     background: white;
-    border: solid 1px #aaa;
+    border: solid 1px white;
     padding: 30px 10px;
+    background: rgba(255, 255, 255, 0.466);
+    color: black;
+    border-radius: 25px;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
 }
 
 footer {
-    background: grey !important;
-    border-top: solid #4aaaa5 5px !important;
+    background: black !important;
+    border-top: solid black 2px !important;
     text-align: center;
     color: white;
 }
 
 .navbar-brand {
-    background: #4aaaa5;
-    border: 10px solid #4aaaa5;
+    background: black;
+    border: 10px solid black;
     color: white !important;
+    margin-right: 0px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 20px;
 }
 
 .navbar {
     padding: 0px;
-    border-bottom: solid 1px #aaa;
+    border-bottom: solid 1px black;
 }
 
 h2 {
-    color: #4aaaa5
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .nav-con {
@@ -42,7 +52,7 @@ h2 {
 
 .bottom-center {
     top: 160px;
-    background-color: teal;
+    background-color: black;
     color: white;
     width: 100%;
     padding: 20px 0;
@@ -54,4 +64,54 @@ h2 {
 
 #BWP {
     margin-bottom: 8px;
+}
+
+#navbarNav {
+    background-color: black;
+    border: 10px solid black;
+    
+}
+
+#about {
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#about:hover {
+    color: goldenrod;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#portfolio {
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#portfolio:hover {
+    color: goldenrod;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#contact {
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#contact:hover {
+    color: goldenrod;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+#container {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 20px;   
+}
+
+.btn {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 25px;  
+    background-color: black;   
+}
+.btn:hover {
+    color: goldenrod;
 }
